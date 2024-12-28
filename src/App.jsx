@@ -1,9 +1,11 @@
 import './App.css'
+import Accordian from './components/Accordian'
+import data from './data.json'
 
 function App() {
   return (
     <>
-      <p>Hello world</p>
+      <Accordian items={data} showOne={true}/>
     </>
   )
 }
