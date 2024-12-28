@@ -5,7 +5,7 @@ import data from './data.json'
 function App() {
   return (
     <>
-      <Accordian items={data} showOne={true}/>
+      <Accordian items={data} showOne={false}/>
     </>
   )
 }
